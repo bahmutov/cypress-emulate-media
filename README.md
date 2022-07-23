@@ -1,28 +1,5 @@
 # cypress-emulate-media ![cypress version](https://img.shields.io/badge/cypress-10.3.1-brightgreen)
 
-Watch the video [Cypress Command Chain Plugin Introduction](https://youtu.be/K5x2oXWsWqI) and read the blog post [Visualize Cypress Command Queue](https://glebbahmutov.com/blog/visualize-cypress-command-queue/).
-
-## Install
-
-```
-# install using NPM
-$ npm i -D cypress-command-chain
-# or install using Yarn
-$ yarn add -D cypress-command-chain
-```
-
-## Use
-
-In the spec or in the support file import this package
-
-```js
-import 'cypress-command-chain'
-```
-
-This plugin adds a queue list to the Cypress Command Log, showing all commands (finished, current, and enqueued) for the current test.
-
-![Command queue](./images/queue.png)
-
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2022
@@ -39,7 +16,7 @@ Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2022
 License: MIT - do anything with the code, but don't blame me if it does not work.
 
 Support: if you find any problems with this module, email / tweet /
-[open issue](https://github.com/bahmutov/cypress-command-chain/issues) on Github
+[open issue](https://github.com/bahmutov/cypress-emulate-media/issues) on Github
 
 ## MIT License
 
