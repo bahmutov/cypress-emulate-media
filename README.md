@@ -1,5 +1,9 @@
 # cypress-emulate-media ![cypress version](https://img.shields.io/badge/cypress-10.3.1-brightgreen) [![ci](https://github.com/bahmutov/cypress-emulate-media/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahmutov/cypress-emulate-media/actions/workflows/ci.yml)
 
+Read the blog post [Emulate Media In Cypress Tests](https://glebbahmutov.com/blog/cypress-emulate-media/)
+
+![Test prefers the dark theme](./images/dark.cy.png)
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2022
