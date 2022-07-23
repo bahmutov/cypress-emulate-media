@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Example showing how to set prefers-color-scheme from a Cypress test",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "badges": "npx -p dependency-version-badge update-badge cypress",
     "test": "cypress run"

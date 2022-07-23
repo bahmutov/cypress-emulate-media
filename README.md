@@ -1,4 +1,4 @@
-# cypress-emulate-media ![cypress version](https://img.shields.io/badge/cypress-10.3.1-brightgreen)
+# cypress-emulate-media ![cypress version](https://img.shields.io/badge/cypress-10.3.1-brightgreen) [![ci](https://github.com/bahmutov/cypress-emulate-media/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahmutov/cypress-emulate-media/actions/workflows/ci.yml)
 
 ## Small print
 
