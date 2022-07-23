@@ -1,0 +1,27 @@
+{
+  "name": "cypress-emulate-media",
+  "version": "1.0.0",
+  "description": "Example showing how to set prefers-color-scheme from a Cypress test",
+  "main": "index.js",
+  "scripts": {
+    "badges": "npx -p dependency-version-badge update-badge cypress",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-emulate-media.git"
+  },
+  "keywords": [
+    "cypress-example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-emulate-media/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-emulate-media#readme",
+  "devDependencies": {
+    "cypress": "^10.3.1",
+    "prettier": "^2.7.1"
+  }
+}
