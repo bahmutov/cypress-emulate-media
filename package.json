@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/bahmutov/cypress-emulate-media#readme",
   "devDependencies": {
+    "@bahmutov/cy-grep": "^1.9.17",
     "cypress": "^13.6.5",
     "cypress-cdp": "^1.3.0",
     "prettier": "^3.2.5"
