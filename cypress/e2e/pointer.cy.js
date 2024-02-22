@@ -1,4 +1,5 @@
 import { getComputedProperty } from './utils'
+// https://github.com/bahmutov/cypress-cdp
 import 'cypress-cdp'
 
 describe('Pointer', { viewportHeight: 200, viewportWidth: 200 }, () => {
