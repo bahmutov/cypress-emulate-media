@@ -19,6 +19,6 @@ it('prefers the dark color scheme', () => {
   cy.visit('public/index.html')
   cy.get('.text')
     .then(getComputedProperty('background-color'))
-    .then(cy.log)
-    .should('equal', 'rgb(0, 0, 0)') // black color!
+    .should('be.a', 'string')
+    .and('equal', 'rgb(0, 0, 0)') // black color!
 })
