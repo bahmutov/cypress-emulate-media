@@ -1,0 +1,35 @@
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/@media/pointer -->
+<html>
+  <style>
+    input[type='checkbox'] {
+      appearance: none;
+      border: solid;
+      margin: 0;
+    }
+
+    input[type='checkbox']:checked {
+      background: gray;
+    }
+
+    @media (pointer: fine) {
+      input[type='checkbox'] {
+        width: 15px;
+        height: 15px;
+        border-width: 1px;
+        border-color: blue;
+      }
+    }
+
+    @media (pointer: coarse) {
+      input[type='checkbox'] {
+        width: 30px;
+        height: 30px;
+        border-width: 2px;
+        border-color: red;
+      }
+    }
+  </style>
+  <body>
+    <input id="test" type="checkbox" /> <label for="test">Look at me!</label>
+  </body>
+</html>
